@@ -35,7 +35,6 @@ const renderArtists = (response) => {
     <img class="card-img-top" src="${song.album.cover_medium}" alt="Card image cap">
     <h5 class="card-title">${song.title}</h5>
     <h6 class="card-title">${song.album.title}</h6>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>`;
   }
 };
